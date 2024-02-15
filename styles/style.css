@@ -1,6 +1,7 @@
 /* common shared styles */
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
   
 }
 .primary-color {
@@ -24,6 +25,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 120px;
+  margin-left: 200px;
 }
 nav > ul {
   display: flex;
@@ -44,4 +47,19 @@ nav li a {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+
+}
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.profile-pic{
+    width: 450px;
 }
